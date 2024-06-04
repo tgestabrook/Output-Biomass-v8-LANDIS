@@ -2,9 +2,8 @@
 
 using Landis.Core;
 using Landis.Utilities;
-using Landis.Library.BiomassCohorts;
+using Landis.Library.UniversalCohorts;
 using Landis.SpatialModeling;
-using Landis.Library.Biomass;
 using Landis.Library.Metadata;
 using System;
 using System.Collections.Generic;
@@ -251,7 +250,7 @@ namespace Landis.Extension.Output.Biomass
             int total = 0;
             if (cohorts != null)
                 foreach (ICohort cohort in cohorts)
-                    total += cohort.Biomass;
+                    total += cohort.Data.Biomass;
             return total;
         }
 
@@ -266,6 +265,12 @@ namespace Landis.Extension.Output.Biomass
                     total += ComputeSpeciesBiomass(speciesCohorts);
                 }
             return total;
+        }
+
+        public override void AddCohortData()
+        {
+            // Add unique cohort parameters here
+            return;
         }
     }
 }
