@@ -97,8 +97,6 @@ namespace Landis.Extension.Output.Biomass
             //      MapNames
             //  Only optional if species parameters are present.
 
-            //InputVar<SelectedDeadPools> deadPools = new InputVar<SelectedDeadPools>(DeadPoolsName,
-            //                                                                        SelectedDeadPoolsUtil.Parse);
 
             InputVar<string> deadPools = new InputVar<string>("DeadPools");
 
@@ -122,10 +120,7 @@ namespace Landis.Extension.Output.Biomass
             	CheckNoDataAfter("the " + mapNames.Name + " parameter");
             }
 
-            //Biomass.PoolMapNames.CheckTemplateVars(parameters.PoolMapNames, parameters.SelectedPools);
-
-
-            return parameters; //.GetComplete();
+            return parameters; 
         }
 
         //---------------------------------------------------------------------

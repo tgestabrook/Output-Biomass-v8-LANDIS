@@ -2,12 +2,14 @@
 
   <PropertyGroup>
     <RootNamespace>Landis.Extension.Output.Biomass</RootNamespace>
-    <AssemblyName>Landis.Extension.Output.Biomass-v3</AssemblyName>
-    <AssemblyTitle>Landis.Extension.Output.Biomass-v3</AssemblyTitle>
     <AssemblyCompany>Landis-II-Foundation</AssemblyCompany>
-    <AssemblyProduct>Landis.Extension.Output.Biomass-v3</AssemblyProduct>
     <AssemblyCopyright>Landis-II-Foundation</AssemblyCopyright>
-    <AssemblyVersion>3.1</AssemblyVersion>
+    <AssemblyName>Landis.Extension.Output.Biomass-v4</AssemblyName>
+    <AssemblyTitle>Landis.Extension.Output.Biomass-v4</AssemblyTitle>
+    <AssemblyProduct>Landis.Extension.Output.Biomass-v4</AssemblyProduct>
+    <AssemblyVersion>4.0</AssemblyVersion>
+    <Version>4.0</Version>
+    <FileVersion>4.0</FileVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass</RepositoryUrl>
@@ -18,11 +20,9 @@
     <Authors>Landis-II-Foundation</Authors>
     <Product>Landis.Extension.Output.Biomass-v3</Product>
     <Copyright>Landis-II-Foundation</Copyright>
-    <Version>3.1</Version>
     <PackageTags>LANDIS-II;Landis;Extension;Output Biomass</PackageTags>
     <Description>Output Biomass Extension</Description>
     <PackageReleaseNotes>.NET Standard 2.0 update</PackageReleaseNotes>
-    <FileVersion>3.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

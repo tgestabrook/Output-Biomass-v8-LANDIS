@@ -1,8 +1,6 @@
 //  Authors:  Robert M. Scheller, James B. Domingo
 
-using Landis.Core;
 using Landis.Library.UniversalCohorts;
-using System.Collections.Generic;
 using Landis.SpatialModeling;
 
 namespace Landis.Extension.Output.Biomass

@@ -1,6 +1,5 @@
 //  Authors:  Robert M. Scheller, James B. Domingo
 
-using Landis.Core;
 using Landis.Utilities;
 using System.Collections.Generic;
 

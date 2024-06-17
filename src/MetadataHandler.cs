@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Landis.Library.Metadata;
 using Landis.Core;
-using Landis.Utilities;
 using System.IO;
-using Flel = Landis.Utilities;
+
 
 namespace Landis.Extension.Output.Biomass
 {
@@ -135,7 +131,7 @@ namespace Landis.Extension.Output.Biomass
             string dir = Path.GetDirectoryName(path);
             if (!string.IsNullOrEmpty(dir))
             {
-                Flel.Directory.EnsureExists(dir);
+                Landis.Utilities.Directory.EnsureExists(dir);
             }
 
             return;

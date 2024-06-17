@@ -198,8 +198,6 @@ namespace Landis.Extension.Output.Biomass
 
             int[] activeSiteCount = new int[ModelCore.Ecoregions.Count];
 
-            //UI.WriteLine("Next, reset all values to zero.");
-
             foreach (IEcoregion ecoregion in ModelCore.Ecoregions)
             {
                 foreach (ISpecies species in ModelCore.Species)
@@ -209,8 +207,6 @@ namespace Landis.Extension.Output.Biomass
 
                 activeSiteCount[ecoregion.Index] = 0;
             }
-
-            //UI.WriteLine("Next, accumulate data.");
 
 
             foreach (ActiveSite site in ModelCore.Landscape)
