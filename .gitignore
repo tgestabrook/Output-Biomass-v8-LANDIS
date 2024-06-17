@@ -392,3 +392,4 @@ testings/Core8-OutputBiomass4.0/outputs/biomass/biomass-woody-40.tif
 testings/Core8-OutputBiomass4.0/outputs/biomass/biomass-woody-45.tif
 testings/Core8-OutputBiomass4.0/outputs/biomass/biomass-woody-5.tif
 testings/Core8-OutputBiomass4.0/outputs/biomass/biomass-woody-50.tif
+src/output-biomass.sln
