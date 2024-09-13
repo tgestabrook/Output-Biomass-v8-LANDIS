@@ -22,7 +22,7 @@ You need:
 
 # Example Files
 
-Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/tree/master/testings/version-tests/Core8-OutputBiomass4.0).
+Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/tree/master/testings/Core8-OutputBiomass4.0).
 
 # Citation
 
