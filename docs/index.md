@@ -4,29 +4,25 @@ The biomass output extension summarizes output from any biomass-compatible exten
 
 # Release Notes
 
-- Latest release: Version 3.0 — September 2018
-
+- Latest release: Version 4.0 — October 2024
 - Full release details found in the User Guide and on GitHub.
-- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/blob/master/docs/LANDIS-II%20Output%20Biomass%20v3.0%20User%20Guide.pdf).
-
+- [View User Guide](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/blob/master/docs/LANDIS-II%20Output%20Biomass%20v4.0%20User%20Guide.pdf).
 - Copyright: The LANDIS-II Foundation
 
 # Requirements
 
 You need:
 
-- The [LANDIS-II model v7.0](http://www.landis-ii.org/install) installed on your computer.
+- The [LANDIS-II model v8.0](http://www.landis-ii.org/install) installed on your computer.
 - Example files (see below)
 
 # Download
 
-- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/blob/master/deploy/installer/LANDIS-II-V7%20Output%20Biomass%203.0-setup.exe). To install it on your computer, launch the installer.
+- The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/blob/master/deploy/installer/LANDIS-II-V8%20Output%20Biomass%204.0-setup.exe). (Look for the download icon in the upper right corner.) Launch the installer.
 
 # Example Files
 
-LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
-
-Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/tree/master/testings/version-tests/Core7-OutputBiomass3.0).
+Example files can be [downloaded from GitHub](https://downgit.github.io/#/home?url=https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/tree/master/testings/version-tests/Core8-OutputBiomass4.0).
 
 # Citation
 
