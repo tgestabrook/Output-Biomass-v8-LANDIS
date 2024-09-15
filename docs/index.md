@@ -1,6 +1,6 @@
 # What is the Biomass Output Extension?
 
-The biomass output extension summarizes output from any biomass-compatible extension, including NECN, PnET, and Biomass Succession. Biomass can be summarized in total or by species and can optionally output a table of species outputs by ecoregion.
+The biomass output extension summarizes output from any extension. Biomass can be summarized in total or by species and can optionally output a table of species outputs by ecoregion.
 
 # Release Notes
 
@@ -16,7 +16,7 @@ You need:
 - The [LANDIS-II model v8.0](http://www.landis-ii.org/install) installed on your computer.
 - Example files (see below)
 
-# Download
+# Download and Install the Extension
 
 - The latest version can be [downloaded from GitHub](https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass/blob/master/deploy/installer/LANDIS-II-V8%20Output%20Biomass%204.0-setup.exe). (Look for the download icon in the upper right corner.) Launch the installer.
 

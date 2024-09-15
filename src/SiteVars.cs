@@ -12,7 +12,7 @@ namespace Landis.Extension.Output.Biomass
     {
         private static ISiteVar<Pool> woodyDebris;
         private static ISiteVar<Pool> litter;
-        private static ISiteVar<ISiteCohorts> cohorts;
+        private static ISiteVar<SiteCohorts> cohorts;
 
 
         //---------------------------------------------------------------------
@@ -26,7 +26,7 @@ namespace Landis.Extension.Output.Biomass
             woodyDebris = PlugIn.ModelCore.GetSiteVar<Pool>("Succession.WoodyDebris");
             litter = PlugIn.ModelCore.GetSiteVar<Pool>("Succession.Litter");
 
-            cohorts = PlugIn.ModelCore.GetSiteVar<ISiteCohorts>("Succession.UniversalCohorts");
+            cohorts = PlugIn.ModelCore.GetSiteVar<SiteCohorts>("Succession.UniversalCohorts");
 
             if (cohorts == null)
             {
@@ -36,7 +36,7 @@ namespace Landis.Extension.Output.Biomass
         }
 
         //---------------------------------------------------------------------
-        public static ISiteVar<ISiteCohorts> Cohorts
+        public static ISiteVar<SiteCohorts> Cohorts
         {
             get
             {
